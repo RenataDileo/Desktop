@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title> 
+    <link rel="stylesheet" href="style.css" />
+    
+    
+</head>
+<body>
+        <header id="header"> 
+                
+            <div id="inner-header">
+                <div id="logo">
+                    <img src="imgs/logo.jpg" alt="Logo Tipo">
+                </div>
+            <nav id ="navbar">                      
+                    <a href="#home">Home</a>
+                    <a href="#banner">Nosso Atelie</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#historias">Historias Reais</a>
+                    <a href="#formulario">Contato</a>             
+            </nav> 
+                   
+        </div> 
+
+            <div class="banner active">
+                <span class="square"></span>
+                <h2>Melhores Móveis</h2>
+                <p>Venham Conhecer os Melhores Móveis para a 
+                sua Casa</p>
+            </div>
+
+            <div class="banner">
+                <span class="square"></span>
+                <h2>Conheça Nossas Lojas</h2>
+                <p>Deixe a sua casa do jeitinho que sempre sonhou! Venha 
+                  fazer um orçamento com a gente e vamos planejar juntos o seu lar!  
+                </p>
+            </div>
+            <div class="banner">
+                <span class="square"></span>
+                <h2>Temos os Melhores Móveis para o seu Lar</h2>
+                <p>Com materiais de qualidade e os melhores designers vamos te oferecer móveis bonitos e resistentes que vão te acompanhar durante a vida. 
+                </p>
+            </div>
+
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            </header> 
+            <main>
+
+        <section id="banner">
+            <div class= "nosso atelie">
+                <h1><span>Nosso Atelie</span></h1>
+                
+            <div class="container">                              
+                    <div class="fundo">
+                        <div class="arquiteto">
+                            <img src="imgs/arquiteto.jpg" alt="arquiteto">
+                        </div>
+                        <div class="mensagem">
+                            <p>O desenvolvimento constante do mercado, a necessidade 
+                                da rápida entrega do produto oferecido e a busca pela
+                                satisfação cada vez maior do cliente fizeram
+                                com que as empresas do mundo desenvolvessem novos métodos 
+                                e tecnologias para agilizar o processo de produção. 
+                            </p>
+                        </div>
+                    </div>                                     
+                </div>    
+            </div>
+        </section> 
+
+            <section id="produtos">
+                <h1><span>Produtos</span></h1>
+            <article id="imagens">
+                <div class="sala">
+                    <img src="imgs/sala2.png" alt="sala">
+                </div>
+
+                <div class="service">
+                    <img src="imgs/quarto1.png" alt="Jogo de quarto">
+                    <img src="imgs/quarto.png" alt="Quarto">
+                    <img src="imgs/sala.png" alt="sala">
+                    <img src="imgs/mesa.png" alt="mesa">     
+                </div>  
+            </article>          
+            </div>
+        </section>
+
+        <section id="historias">
+            <div class="historias">
+                <h1><span>Historias Reais</span></h1>              
+            </div>
+            <div class="depoimento">
+            <h4>Nossos móveis, suas histórias, lares transformados.</h4>
+            </div>
+            <article id="imagem">
+            <div class="casal">
+                <img src="imgs/casal.png" alt="casal">
+            </div> 
+
+            <div class="depoimentos">
+                <img src="imgs/jovem-atraente-conversando-por-telefone-conversando-e-sorrindo_176420-18837.jpg" alt="pessoa">
+                <p>Quando decidimos redecorar nossa sala, queríamos algo que falasse sobre nossa paixão pelo estilo industrial, mas sem perder a sensação de aconchego.</p>
+               
+                <img src="imgs/retrato-de-cabelos-louro-linda-mulher-feminina-com-amplo-sorriso-e-polegares-para-cima_176420-14970.jpg" alt="pessoa">
+                <p>Fazer o pedido com a Urban Forge foi uma experiência incrível do início ao fim.</p>
+                
+          
+                <img src="imgs/uma-mulher-sentada-em-uma-mesa-sorrindo_777078-37370.avif" alt="pessoa">
+                <p>Decidir por móveis da Urban Forge para o meu novo escritório foi uma das melhores decisões que tomei.</p> 
+                
+                 
+                <img src="imgs/retrato-de-um-cara-sorridente-bonito-com-camiseta-branca-sobre-fundo-azul_93675-134697.jpg" alt="pessoa">
+                <p>Sou arquiteto e sempre busco peças únicas para meus projetos. A Urban Forge se tornou minha escolha número um para mobiliário de destaque.</p> 
+            </div>
+        </article>    
+            </div>               
+        </section>
+
+
+    </main>          
+        <section id="formulario">
+            <div class="formulario">
+                <form action="" autocomplete="off">
+                    <fieldset>
+                        <legend>
+                            Formulário de Contato
+                        </legend>
+                        <div class="imagem">
+                            <img src="imgs/login.png" width="100" height="100">
+                        </div>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name"
+                        required placeholder="Digite seu Nome Completo">
+                    
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email"
+                        id="email" required placeholder="Digite um email Válido">
+            
+                        <label for="telefone">Telefone</label>
+                        <input type="telefone" name="telefone"
+                        id="email" required placeholder="Digite seu Telefone">
+            
+                        <label for="subject">Assunto</label>
+                        <input type="text" 
+                        id="subject">
+            
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" rows="7" required
+                        maxlength="800" minlength="20" 
+                        placeholder=""></textarea>
+            
+                    <button type="submit" class="btn">Enviar</button>
+                        
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        
+    </div>    
+      <script src="js/scripts.js"></script>
+    </body>
+    </html>
